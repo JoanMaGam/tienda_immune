@@ -1,0 +1,70 @@
+###
+GET http://localhost:3000/api/pruebas/creacion
+###
+GET http://localhost:3000/api/pruebas/creacion_v2
+
+###
+GET http://localhost:3000/api/pruebas/recuperacion
+
+###
+GET http://localhost:3000/api/pruebas/actualizar
+
+###
+GET http://localhost:3000/api/pruebas/actualizar_v2
+
+###
+GET http://localhost:3000/api/pruebas/actualizar_v3
+
+###
+GET http://localhost:3000/api/pruebas/borrar
+
+###
+POST http://localhost:3000/api/users/register
+Content-Type: application/json
+
+{
+    "username": "marianito",
+    "email": "marianito@gmail.com",
+    "password": "12344"
+}
+
+###
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+    "email": "marianito@gmail.com",
+    "password": "12344"
+}
+
+###
+PUT http://localhost:3000/api/users/product/648b5f2c718d613e17a59462
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjQ4YjUzZGNiMTgxNjY1YzZhOGFiNTJiIiwidXNlcl9yb2xlIjoicmVndWxhciIsInVzZXJfbmFtZSI6Im1hcmlhbml0byIsImlhdCI6MTY4NjkzNDQ0NX0.fT6wBwcb5HyWJEjEvgF9Y_Kj-70BM-jj_1_F7NnKsZ8
+
+
+###
+GET http://localhost:3000/api/users/648b53dcb181665c6a8ab52b
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "Cuchillo jamonero",
+    "description": "para cortar buen jamon",
+    "price": 12,
+    "department": "cocina",
+    "stock": 100,
+    "avaliable": true,
+    "owner": "648b53dcb181665c6a8ab52b"
+}
+
+
+###
+GET http://localhost:3000/api/products
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjQ4YjUzZGNiMTgxNjY1YzZhOGFiNTJiIiwidXNlcl9yb2xlIjoicmVndWxhciIsInVzZXJfbmFtZSI6Im1hcmlhbml0byIsImlhdCI6MTY4NjkzNDQ0NX0.fT6wBwcb5HyWJEjEvgF9Y_Kj-70BM-jj_1_F7NnKsZ8
+
+
+###
+DELETE http://localhost:3000/api/products/999922122345
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjQ4YjUzZGNiMTgxNjY1YzZhOGFiNTJiIiwidXNlcl9yb2xlIjoicmVndWxhciIsInVzZXJfbmFtZSI6Im1hcmlhbml0byIsImlhdCI6MTY4NjkzNDQ0NX0.fT6wBwcb5HyWJEjEvgF9Y_Kj-70BM-jj_1_F7NnKsZ8
