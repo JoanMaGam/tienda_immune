@@ -7,6 +7,7 @@ const app = express(); //aqui creamos la applicacion de express.
 app.use(express.json());
 
 //RUTAS
+app.get('/', (req, res) => res.send('Hola amigo mio!!!'))
 app.use('/api', require('./routes/api'));
 
 

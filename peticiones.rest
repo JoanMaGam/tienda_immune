@@ -1,5 +1,5 @@
 ###
-GET http://localhost:3000/api/pruebas/creacion
+GET https://tienda-immune-bjpt.onrender.com/api/pruebas/creacion
 ###
 GET http://localhost:3000/api/pruebas/creacion_v2
 
@@ -61,7 +61,8 @@ Content-Type: application/json
 
 
 ###
-GET http://localhost:3000/api/products
+GET https://tienda-immune-bjpt.onrender.com/api/products
+# GET http://localhost:3000/api/products
 Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjQ4YjUzZGNiMTgxNjY1YzZhOGFiNTJiIiwidXNlcl9yb2xlIjoicmVndWxhciIsInVzZXJfbmFtZSI6Im1hcmlhbml0byIsImlhdCI6MTY4NjkzNDQ0NX0.fT6wBwcb5HyWJEjEvgF9Y_Kj-70BM-jj_1_F7NnKsZ8
 
 
